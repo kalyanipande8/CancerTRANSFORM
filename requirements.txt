@@ -1,0 +1,11 @@
+torch>=1.13.0
+numpy>=1.21
+pandas>=1.3
+scikit-learn>=1.0
+matplotlib>=3.4
+seaborn>=0.11
+tqdm>=4.60
+jupyter
+requests>=2.25
+beautifulsoup4>=4.9
+lxml>=4.6
