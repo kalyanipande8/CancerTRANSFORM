@@ -111,3 +111,9 @@ python notebooks/explainability.py --data data/sample.csv
 ```
 
 If you want, I can now wire in your real dataset loader, add a Jupyter notebook for explainability visualizations, or prepare a `pyproject.toml`/`setup.cfg` for packaging.
+
+**Datasets & Credits**
+- `data/Coimbra_breast_cancer_dataset.csv`: Coimbra Breast Cancer Dataset (clinical measurements). This repository includes a local copy/mirror for convenience. Original dataset mirrors are available on UCI Machine Learning Repository and Kaggle — please consult the original dataset page for licensing and citation details when publishing results.
+- `data/dataR2.csv`: a variant/mirror of the Coimbra dataset included here for experiments.
+
+Please credit the original dataset providers when using these data for publications or public releases. If you plan to publish results derived from these datasets, cite the dataset's original source (see the dataset page on UCI or Kaggle for the correct citation and licensing information).
