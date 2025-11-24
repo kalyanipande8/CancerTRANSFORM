@@ -96,24 +96,9 @@ The `ClinicalAttentionModel` in `run.py` treats the 7 clinical features as a seq
 **Citation / Source**
 This workspace draws structure and inspiration from: `https://github.com/kalyanipande8/Attention-Transformer-For-Global-HIV-Detection`.
 
-**Next steps**
-- Replace synthetic loader with your clinical dataset loader.
-- Add unit tests and evaluation notebooks.
-- Add model checkpointing and experiment logging (e.g., `wandb` or `tensorboard`).
 
-Quick try (macOS / zsh):
 
-```bash
-./scripts/setup_venv.sh
-source .venv/bin/activate
-python run.py --mode train --epochs 2
-python notebooks/explainability.py --data data/sample.csv
-```
-
-If you want, I can now wire in your real dataset loader, add a Jupyter notebook for explainability visualizations, or prepare a `pyproject.toml`/`setup.cfg` for packaging.
 
 **Datasets & Credits**
 - `data/Coimbra_breast_cancer_dataset.csv`: Coimbra Breast Cancer Dataset (clinical measurements). This repository includes a local copy/mirror for convenience. Original dataset mirrors are available on UCI Machine Learning Repository and Kaggle — please consult the original dataset page for licensing and citation details when publishing results.
 - `data/dataR2.csv`: a variant/mirror of the Coimbra dataset included here for experiments.
-
-Please credit the original dataset providers when using these data for publications or public releases. If you plan to publish results derived from these datasets, cite the dataset's original source (see the dataset page on UCI or Kaggle for the correct citation and licensing information).
